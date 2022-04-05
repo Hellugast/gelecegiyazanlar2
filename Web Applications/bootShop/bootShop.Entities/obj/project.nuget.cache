@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "b7Cr7sM+sxbzpqyawamThLOihm1LDzf6xp3uFlhLR/vZyaq5nR33cOtazzqasQyG6RKSzj6lWswpkNPflmmLnA==",
+  "dgSpecHash": "lBYNVP/EYf/mTlLZxdmHy0MiWBhSVValFwOMGv22wJSBbzX4vYdscOO8zPtU+G5AZcSHT5VL0oNnN+p6po3v7g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.Entities\\bootShop.Entities.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Amca\\Desktop\\github\\Hellugast\\gelecegiyazanlar2\\Web Applications\\bootShop\\bootShop.Entities\\bootShop.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Amca\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512"
+  ],
   "logs": []
 }

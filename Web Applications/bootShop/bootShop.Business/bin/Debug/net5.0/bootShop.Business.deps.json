@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v5.0": {
       "bootShop.Business/1.0.0": {
         "dependencies": {
+          "Dapper": "2.0.123",
           "bootShop.DataAccess": "1.0.0"
         },
         "runtime": {
           "bootShop.Business.dll": {}
+        }
+      },
+      "Dapper/2.0.123": {
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.123.33578"
+          }
         }
       },
       "Microsoft.CSharp/4.5.0": {},
@@ -1041,6 +1050,7 @@
       },
       "bootShop.DataAccess/1.0.0": {
         "dependencies": {
+          "Dapper": "2.0.123",
           "Microsoft.EntityFrameworkCore": "5.0.15",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.15",
           "bootShop.Entities": "1.0.0"
@@ -1050,6 +1060,9 @@
         }
       },
       "bootShop.Entities/1.0.0": {
+        "dependencies": {
+          "Dapper": "2.0.123"
+        },
         "runtime": {
           "bootShop.Entities.dll": {}
         }
@@ -1061,6 +1074,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Dapper/2.0.123": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RDFF4rBLLmbpi6pwkY7q/M6UXHRJEOerplDGE5jwEkP/JGJnBauAClYavNKJPW1yOTWRPIyfj4is3EaJxQXILQ==",
+      "path": "dapper/2.0.123",
+      "hashPath": "dapper.2.0.123.nupkg.sha512"
     },
     "Microsoft.CSharp/4.5.0": {
       "type": "package",

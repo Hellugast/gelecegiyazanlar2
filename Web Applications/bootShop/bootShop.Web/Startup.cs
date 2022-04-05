@@ -30,7 +30,7 @@ namespace bootShop.Web
             services.AddControllersWithViews();
             services.AddScoped<IProductService, ProductService>();
             services.AddScoped<ICategoryService, CategoryService>();
-            services.AddScoped<IProductRepository, EFProductRepository>();
+            services.AddScoped<IProductRepository, DapperProductRepository>();
 
 
             var connectionString = Configuration.GetConnectionString("db");

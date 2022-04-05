@@ -15,3 +15,21 @@ C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.DataAccess\bin\Debug\net5.0\bootShop.DataAccess.runtimeconfig.json
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.DataAccess\bin\Debug\net5.0\bootShop.DataAccess.runtimeconfig.dev.json
 C:\Users\turka\source\repos\Turkcell Gelecegi Yazanlar\Bootcamp\Web Applications\bootShop\bootShop.DataAccess\obj\Debug\net5.0\bootShop.DataAccess.genruntimeconfig.cache
+C:\Users\Amca\Desktop\github\Hellugast\gelecegiyazanlar2\Web Applications\bootShop\bootShop.DataAccess\bin\Debug\net5.0\bootShop.DataAccess.deps.json
+C:\Users\Amca\Desktop\github\Hellugast\gelecegiyazanlar2\Web Applications\bootShop\bootShop.DataAccess\bin\Debug\net5.0\bootShop.DataAccess.runtimeconfig.json
+C:\Users\Amca\Desktop\github\Hellugast\gelecegiyazanlar2\Web Applications\bootShop\bootShop.DataAccess\bin\Debug\net5.0\bootShop.DataAccess.runtimeconfig.dev.json
+C:\Users\Amca\Desktop\github\Hellugast\gelecegiyazanlar2\Web Applications\bootShop\bootShop.DataAccess\bin\Debug\net5.0\bootShop.DataAccess.dll
+C:\Users\Amca\Desktop\github\Hellugast\gelecegiyazanlar2\Web Applications\bootShop\bootShop.DataAccess\bin\Debug\net5.0\bootShop.DataAccess.pdb
+C:\Users\Amca\Desktop\github\Hellugast\gelecegiyazanlar2\Web Applications\bootShop\bootShop.DataAccess\bin\Debug\net5.0\bootShop.Entities.dll
+C:\Users\Amca\Desktop\github\Hellugast\gelecegiyazanlar2\Web Applications\bootShop\bootShop.DataAccess\bin\Debug\net5.0\bootShop.Entities.pdb
+C:\Users\Amca\Desktop\github\Hellugast\gelecegiyazanlar2\Web Applications\bootShop\bootShop.DataAccess\obj\Debug\net5.0\bootShop.DataAccess.csproj.AssemblyReference.cache
+C:\Users\Amca\Desktop\github\Hellugast\gelecegiyazanlar2\Web Applications\bootShop\bootShop.DataAccess\obj\Debug\net5.0\bootShop.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amca\Desktop\github\Hellugast\gelecegiyazanlar2\Web Applications\bootShop\bootShop.DataAccess\obj\Debug\net5.0\bootShop.DataAccess.AssemblyInfoInputs.cache
+C:\Users\Amca\Desktop\github\Hellugast\gelecegiyazanlar2\Web Applications\bootShop\bootShop.DataAccess\obj\Debug\net5.0\bootShop.DataAccess.AssemblyInfo.cs
+C:\Users\Amca\Desktop\github\Hellugast\gelecegiyazanlar2\Web Applications\bootShop\bootShop.DataAccess\obj\Debug\net5.0\bootShop.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Amca\Desktop\github\Hellugast\gelecegiyazanlar2\Web Applications\bootShop\bootShop.DataAccess\obj\Debug\net5.0\bootShop.DataAccess.csproj.CopyComplete
+C:\Users\Amca\Desktop\github\Hellugast\gelecegiyazanlar2\Web Applications\bootShop\bootShop.DataAccess\obj\Debug\net5.0\bootShop.DataAccess.dll
+C:\Users\Amca\Desktop\github\Hellugast\gelecegiyazanlar2\Web Applications\bootShop\bootShop.DataAccess\obj\Debug\net5.0\refint\bootShop.DataAccess.dll
+C:\Users\Amca\Desktop\github\Hellugast\gelecegiyazanlar2\Web Applications\bootShop\bootShop.DataAccess\obj\Debug\net5.0\bootShop.DataAccess.pdb
+C:\Users\Amca\Desktop\github\Hellugast\gelecegiyazanlar2\Web Applications\bootShop\bootShop.DataAccess\obj\Debug\net5.0\bootShop.DataAccess.genruntimeconfig.cache
+C:\Users\Amca\Desktop\github\Hellugast\gelecegiyazanlar2\Web Applications\bootShop\bootShop.DataAccess\obj\Debug\net5.0\ref\bootShop.DataAccess.dll

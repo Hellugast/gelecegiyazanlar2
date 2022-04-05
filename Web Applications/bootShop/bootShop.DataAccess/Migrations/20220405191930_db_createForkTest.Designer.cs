@@ -10,8 +10,8 @@ using bootShop.DataAccess.Data;
 namespace bootShop.DataAccess.Migrations
 {
     [DbContext(typeof(bootShopDbContext))]
-    [Migration("20220328190730_init")]
-    partial class init
+    [Migration("20220405191930_db_createForkTest")]
+    partial class db_createForkTest
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

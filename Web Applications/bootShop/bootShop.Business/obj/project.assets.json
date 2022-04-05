@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     "net5.0": {
+      "Dapper/2.0.123": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Dapper.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {}
+        }
+      },
       "Microsoft.CSharp/4.5.0": {
         "type": "package",
         "compile": {
@@ -1486,6 +1495,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Dapper": "2.0.123",
           "Microsoft.EntityFrameworkCore": "5.0.15",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.15",
           "bootShop.Entities": "1.0.0"
@@ -1500,6 +1510,9 @@
       "bootShop.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Dapper": "2.0.123"
+        },
         "compile": {
           "bin/placeholder/bootShop.Entities.dll": {}
         },
@@ -1510,6 +1523,24 @@
     }
   },
   "libraries": {
+    "Dapper/2.0.123": {
+      "sha512": "RDFF4rBLLmbpi6pwkY7q/M6UXHRJEOerplDGE5jwEkP/JGJnBauAClYavNKJPW1yOTWRPIyfj4is3EaJxQXILQ==",
+      "type": "package",
+      "path": "dapper/2.0.123",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.0.123.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml"
+      ]
+    },
     "Microsoft.CSharp/4.5.0": {
       "sha512": "kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
       "type": "package",
@@ -5732,23 +5763,24 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Dapper >= 2.0.123",
       "bootShop.DataAccess >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\turka\\.nuget\\packages\\": {}
+    "C:\\Users\\Amca\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.Business\\bootShop.Business.csproj",
+      "projectUniqueName": "C:\\Users\\Amca\\Desktop\\github\\Hellugast\\gelecegiyazanlar2\\Web Applications\\bootShop\\bootShop.Business\\bootShop.Business.csproj",
       "projectName": "bootShop.Business",
-      "projectPath": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.Business\\bootShop.Business.csproj",
-      "packagesPath": "C:\\Users\\turka\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.Business\\obj\\",
+      "projectPath": "C:\\Users\\Amca\\Desktop\\github\\Hellugast\\gelecegiyazanlar2\\Web Applications\\bootShop\\bootShop.Business\\bootShop.Business.csproj",
+      "packagesPath": "C:\\Users\\Amca\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Amca\\Desktop\\github\\Hellugast\\gelecegiyazanlar2\\Web Applications\\bootShop\\bootShop.Business\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\turka\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Amca\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5762,8 +5794,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.DataAccess\\bootShop.DataAccess.csproj": {
-              "projectPath": "C:\\Users\\turka\\source\\repos\\Turkcell Gelecegi Yazanlar\\Bootcamp\\Web Applications\\bootShop\\bootShop.DataAccess\\bootShop.DataAccess.csproj"
+            "C:\\Users\\Amca\\Desktop\\github\\Hellugast\\gelecegiyazanlar2\\Web Applications\\bootShop\\bootShop.DataAccess\\bootShop.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Amca\\Desktop\\github\\Hellugast\\gelecegiyazanlar2\\Web Applications\\bootShop\\bootShop.DataAccess\\bootShop.DataAccess.csproj"
             }
           }
         }
@@ -5777,6 +5809,12 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
+        "dependencies": {
+          "Dapper": {
+            "target": "Package",
+            "version": "[2.0.123, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -5792,7 +5830,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

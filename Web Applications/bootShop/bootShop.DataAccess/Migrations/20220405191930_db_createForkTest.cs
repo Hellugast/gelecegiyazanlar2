@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace bootShop.DataAccess.Migrations
 {
-    public partial class init : Migration
+    public partial class db_createForkTest : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
